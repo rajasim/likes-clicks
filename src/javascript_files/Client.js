@@ -1,17 +1,17 @@
 import React from "react";
-import "../css_files/Client.css"
+import "../css_files/Client.css";
 
 function Client() {
   return (
-    <div className="App">
-      <section className="brands-section">
-        <h2 className="section-title">BRANDS THAT TRUST US</h2>
-        <div className="brands-container">
-          <div className="brand-card">Emcure</div>
-          <div className="brand-card">ReWaise</div>
-        </div>
-      </section>
-    </div>
+    <section className="brands-section">
+      <h2>More Services We Offer</h2>
+      <div className="brands-container">
+        <div>Content Strategy</div>
+        <div>Lead Generation</div>
+        <div>E-commerce</div>
+        <br></br>
+      </div>
+    </section>
   );
 }
 

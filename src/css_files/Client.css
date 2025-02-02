@@ -1,58 +1,50 @@
-/* General Reset */
-body, html, #root, .App {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-    background-color: #f5f8ff;
-    color: #1a2754;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-  }
-  
-  
-  .brands-section {
-    text-align: center;
-    background-color: #f5f8ff;
-    padding: 2rem;
-  }
-  
-  .section-title {
-    font-size: 3.5rem;
-    font-weight: bold;
-    color: #1a2754;
-    margin-bottom: 10rem;
-    position: relative;
-    text-align: center;
-    
-  }
-  
-  
-  
+.brands-section {
+  text-align: center;
+  background-color: #f5f8ff;
+  padding: 2rem;
+}
+
+.brands-section h2 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: #1a2754;
+  margin-bottom: 10rem;
+  position: relative;
+  text-align: center;
+}
+
+.brands-container {
+  display: flex;
+  justify-content: center;
+  gap: 8.5rem;
+  position: relative;
+  font-size: 2.4rem;
+}
+
+.brands-container div {
+  padding: 1rem 2rem;
+  border: 1px solid #1a2754;
+  border-radius: 10px;
+  font-size: 2.2rem;
+  font-weight: bold;
+  color: #1a2754;
+  background-color: #eef2ff;
+  cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.brands-container div:hover {
+  transform: scale(1.05);
+  background-color: #d8e2ff;
+}
+
+@media (max-width: 480px) {
   .brands-container {
-    display: flex;
-    justify-content: center;
-    gap: 39.5rem;
-    position: relative;
-    font-size: 2.4rem;
+    flex-direction: column;
+    gap: 1.5rem;
   }
-  
-  
-  .brand-card {
-    padding: 1rem 2rem;
-    border: 1px solid #1a2754;
-    border-radius: 10px;
-    font-size: 2.2rem;
-    font-weight: bold;
-    color: #1a2754;
-    background-color: #eef2ff;
-    cursor: pointer;
-    transition: transform 0.3s ease, background-color 0.3s ease;
+
+  .brands-section h2 {
+    margin-bottom: 1rem;
   }
-  
-  .brand-card:hover {
-    transform: scale(1.05);
-    background-color: #d8e2ff;
-  }
-  
+}

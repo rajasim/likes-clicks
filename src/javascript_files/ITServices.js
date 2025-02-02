@@ -40,26 +40,26 @@ function ITServices() {
   return (
     <div className="it-services" ref={itservicesref}>
       <blockquote>
-        <h2>Our IT Services</h2>
+        <h2>Our Marketing Services</h2>
         <h1>
-          COMPREHENSIVE SOLUTIONS <br /> TAILORED TO YOUR NEEDS
+          Digital Marketing Services <br /> TAILORED TO YOUR NEEDS
         </h1>
       </blockquote>
       <aside>
         <figure>
+          <h3>1. Marketing Automation</h3>
           <img src="/images/Image 725.png" />
-          <h3>01. Cloud Services</h3>
         </figure>
         <figure>
-          <h3>02 . Managed IT Services</h3>
+          <h3>2. SEO</h3>
           <img src="/images/Image 727.png" />
         </figure>
         <figure>
+          <h3>3. CRO</h3>
           <img src="/images/Image 728.png" />
-          <h3>03. Cybersecurity Services</h3>
         </figure>
         <figure>
-          <h3>04 . Network Infrastructure</h3>
+          <h3>4. Google Analytics</h3>
           <img src="/images/Image 729.png" />
         </figure>
       </aside>
