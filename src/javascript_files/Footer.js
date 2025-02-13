@@ -11,13 +11,13 @@ function Footer() {
       <footer>
         <blockquote>
           <p>Contact Us</p>
-          <p>+91 75889 95299</p>
+          <p>+61466289709</p>
           <p></p>
           
         </blockquote>
         <blockquote>
           <p>Address</p>
-          <p>Mailing Address as per record<br></br> available in Registar of
+          <p>Kuraby, Queensland.<br></br> 
           <br></br> Companies office:
 Likes And Clicks PRIVATE LIMITED 
 </p>
