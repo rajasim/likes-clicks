@@ -5,7 +5,7 @@ function Footer() {
   return (
     <div className="footer">
       <figure>
-        <video src="/videos/likesandclicks.mp4" autoPlay loop muted></video>
+        <video src="/videos/likesand.mp4" autoPlay loop muted></video>
         <h1>Likes And Clicks</h1>
       </figure>
       <footer>

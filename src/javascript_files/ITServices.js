@@ -11,7 +11,7 @@ function ITServices() {
           for (let i = 0; i < figures.length; i++) {
             figures[i].style.transform = "translateY(0px)";
             figures[i].style.opacity = 1;
-            figures[i].style.transition = "transform 2s ease";
+            figures[i].style.transition = "transform 1s ease";
           }
 
           observer.disconnect();
@@ -48,15 +48,15 @@ function ITServices() {
       <aside>
         <figure>
           <h3>1. Marketing Automation</h3>
-          <img src="/images/Image 725.png" />
+          <img src="/images/marketing-automation.jpg" />
         </figure>
         <figure>
           <h3>2. SEO</h3>
-          <img src="/images/Image 727.png" />
+          <img src="/images/eo.png" />
         </figure>
         <figure>
           <h3>3. CRO</h3>
-          <img src="/images/Image 728.png" />
+          <img src="/images/cro.png" />
         </figure>
         <figure>
           <h3>4. Google Analytics</h3>

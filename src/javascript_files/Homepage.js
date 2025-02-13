@@ -12,7 +12,7 @@ function Homepage({ opensidebar }) {
   return (
     <div className="homepage">
       <blockquote ref={blockquotesize}>
-        <img id="navbar-logo-image" src="/images/likesandclicks.jpeg" />
+        <img id="navbar-logo-image" src="/images/likeslogo.png" />
         <button onClick={opensidebar}>
           <i class="fa-solid fa-bars"></i>
         </button>
@@ -26,7 +26,7 @@ function Homepage({ opensidebar }) {
         }}
       ></blockquote>
       <figure>
-        <video src="/videos/board.mp4" autoPlay loop muted></video>
+        <video src="/videos/likes.mp4" autoPlay loop muted></video>
         <h1>
           Your Journey to a Digital Future. Our <br />
           IT Solutions, Tailored to Your Needs.
