@@ -18,7 +18,7 @@ function Sidebar({ sidebarRef }) {
             <h1><a href="#homepage" id="homepage">Home</a></h1>
             <h1><a href="#about-us">About</a></h1>
             <h1><a href="#it-services">IT Service</a></h1>
-            <h1><a href="#partner-with-us-intro" id="partner-with-us-intro">Parter With Us</a></h1>
+            <h1><a href="#partner-with-us-intro" id="partner-with-us-intro">Parter</a></h1>
           </blockquote>
           <blockquote style={{ marginTop: "10rem" }}>
             <h3>SECURE YOUR BUSINESS TODAY</h3>
