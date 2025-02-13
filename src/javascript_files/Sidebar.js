@@ -25,7 +25,7 @@ function Sidebar({ sidebarRef }) {
             <h3>INFO@MYSITE.COM</h3>
           </blockquote>
           <button onClick={closeSidebar}>
-            <i className="fa-solid fa-xmark"></i>
+          <i class="fa-solid fa-bars"></i>
           </button>
         </div>
       </section>

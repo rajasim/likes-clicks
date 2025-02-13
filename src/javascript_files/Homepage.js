@@ -10,7 +10,7 @@ function Homepage({ opensidebar }) {
     console.log(blockquotesize.current.clientHeight);
   }, []);
   return (
-    <div className="homepage">
+    <div className="homepage" id="homepage" >
       <blockquote ref={blockquotesize}>
         <img id="navbar-logo-image" src="/images/likeslogo.png" />
         <p><h4>Likes & Clicks</h4></p>
