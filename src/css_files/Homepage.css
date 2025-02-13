@@ -5,8 +5,8 @@
   height: 5px;
 }
 #navbar-logo-image {
-  height: 150px;
-  width: 150px;
+  height: 130px;
+  width: 130px;
   mix-blend-mode: multiply;
 }
 
@@ -22,7 +22,7 @@
 }
 
 .homepage blockquote h4 {
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   font-weight: 200;
   color: blue;
 }
@@ -67,10 +67,15 @@
   }
 
   #navbar-logo-image {
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
   }
   .homepage blockquote button i {
     font-size: 2.0rem;
+  }
+  .homepage blockquote h4 {
+    font-size: 1.5rem;
+    font-weight: 200;
+    color: blue;
   }
 }

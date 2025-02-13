@@ -3,7 +3,7 @@ import "../css_files/Client.css";
 
 function Client() {
   return (
-    <div className="container">
+    <div className="container" id="container" >
       <div className="card">
         <h2>Local SEO</h2>
         <p>Improve your site's local SEO strategy and drive more traffic to your site!</p>

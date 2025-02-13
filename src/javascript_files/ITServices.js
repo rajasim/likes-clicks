@@ -38,7 +38,7 @@ function ITServices() {
   }, []);
 
   return (
-    <div className="it-services" ref={itservicesref}>
+    <div className="it-services" id="it-services"  ref={itservicesref}>
       <blockquote>
         <h2>Our Marketing Services</h2>
         <h1>

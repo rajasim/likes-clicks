@@ -3,7 +3,7 @@ import "../css_files/Footer.css";
 
 function Footer() {
   return (
-    <div className="footer">
+    <div className="footer" id="footer" >
       <figure>
         <video src="/videos/likesand.mp4" autoPlay loop muted></video>
         <h1>Likes And Clicks</h1>
@@ -32,7 +32,6 @@ Likes And Clicks PRIVATE LIMITED
           <p>Info@Likes And Clicks.com</p>
           
           <p>
-            Built on <b>React</b>
           </p>
         </blockquote>
       </footer>

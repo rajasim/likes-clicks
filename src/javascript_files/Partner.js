@@ -60,7 +60,7 @@ function Partner() {
           </blockquote>
         </aside>
       </div>
-      <div className="partner-with-us-outro" ref={partnerref}>
+      <div className="partner-with-us-outro" id="partner-with-us-outro" ref={partnerref}>
         <figure>
           <video src="/videos/clicks.mp4" autoPlay loop muted></video>
         </figure>
